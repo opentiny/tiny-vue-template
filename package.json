@@ -1,0 +1,17 @@
+{
+  "name": "tiny-vue-template",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "tiny-vue template",
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@9.14.2",
+  "keywords": [
+    "opentiny",
+    "nuxt",
+    "tiny-vue"
+  ],
+  "scripts": {
+    "dev": "pnpm -F tiny-vue-mobile-first dev"
+  }
+}

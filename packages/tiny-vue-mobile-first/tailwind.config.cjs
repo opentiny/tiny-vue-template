@@ -2,7 +2,11 @@
 const config = require('@opentiny/vue-theme-saas/tailwind.config.js')
 
 module.exports = {
-  content: ['./src/**/*.{html,js,vue}', './node_modules/@opentiny/vue-*/lib/*.js'],
+  content: [
+    './src/**/*.{html,js,vue}',
+    './node_modules/@opentiny/vue-*/lib/*.js',
+    '../../node_modules/@opentiny/vue-*/lib/*.js'
+  ],
   theme: {
     extend: {},
     screens: {
