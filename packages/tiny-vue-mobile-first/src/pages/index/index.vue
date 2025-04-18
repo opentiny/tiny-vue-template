@@ -134,203 +134,203 @@ const cardConfig = {
 const tableData = ref([
   {
     id: 1,
-    title: '小红提交的零星采购采购评审',
-    billNum: 'ABC-XY-20240904',
+    title: '办公用品采购申请',
+    billNum: 'CG-2024-0001',
     status: '已通过',
-    curNode: '财务处长审批',
-    curApprover: '张红',
-    applicant: '张延庆',
-    date: '2024-08-23'
+    curNode: '财务经理审批',
+    curApprover: '王丽',
+    applicant: '李明',
+    date: '2024-03-15'
   },
   {
     id: 2,
-    title: '小明提交的零星采购采购评审',
-    billNum: 'DEF-GH-20240905',
+    title: '研发设备更新申请',
+    billNum: 'SB-2024-0058',
     status: '待审批',
-    curNode: '人事经理审批',
-    curApprover: '李华',
-    applicant: '李雷',
-    date: '2024-08-24'
+    curNode: '技术总监审批',
+    curApprover: '张伟',
+    applicant: '陈杰',
+    date: '2024-03-14'
   },
   {
     id: 3,
-    title: '小刚提交的零星采购采购评审',
-    billNum: 'IJK-LM-20240906',
+    title: '员工团建活动经费申请',
+    billNum: 'TB-2024-0023',
     status: '待审批',
-    curNode: '技术总监审批',
-    curApprover: '王伟',
-    applicant: '王涛',
-    date: '2024-08-25'
+    curNode: '人事总监审批',
+    curApprover: '刘芳',
+    applicant: '赵阳',
+    date: '2024-03-13'
   },
   {
     id: 4,
-    title: '小蓝提交的零星采购采购评审',
-    billNum: 'NOP-QR-20240907',
+    title: '服务器维护费用申请',
+    billNum: 'FW-2024-0102',
     status: '已通过',
-    curNode: '行政部门审批',
-    curApprover: '赵娜',
-    applicant: '赵珊珊',
-    date: '2024-08-26'
+    curNode: '信息部经理审批',
+    curApprover: '周强',
+    applicant: '郑华',
+    date: '2024-03-12'
   },
   {
     id: 5,
-    title: '小绿提交的零星采购采购评审',
-    billNum: 'STU-VW-20240908',
+    title: '新员工电脑配置申请',
+    billNum: 'IT-2024-0089',
     status: '待审批',
-    curNode: '销售经理审批',
-    curApprover: '郑艳',
-    applicant: '郑珊珊',
-    date: '2024-08-27'
+    curNode: '行政经理审批',
+    curApprover: '孙婷',
+    applicant: '吴超',
+    date: '2024-03-11'
   },
   {
     id: 6,
-    title: '小粉提交的零星采购采购评审',
-    billNum: 'XYZ-AB-20240909',
+    title: '年度软件授权续费申请',
+    billNum: 'RJ-2024-0045',
     status: '待审批',
-    curNode: '财务副总审批',
-    curApprover: '吴娜',
-    applicant: '吴珊珊',
-    date: '2024-08-28'
+    curNode: '技术副总审批',
+    curApprover: '黄磊',
+    applicant: '徐亮',
+    date: '2024-03-10'
   },
   {
     id: 7,
-    title: '小橙提交的零星采购采购评审',
-    billNum: 'CD-EF-20240910',
+    title: '会议室装修改造申请',
+    billNum: 'ZX-2024-0012',
     status: '已通过',
-    curNode: '人事主管审批',
-    curApprover: '周华',
-    applicant: '周涛',
-    date: '2024-08-29'
+    curNode: '总经理审批',
+    curApprover: '马云',
+    applicant: '韩雪',
+    date: '2024-03-09'
   },
   {
     id: 8,
-    title: '小青提交的零星采购采购评审',
-    billNum: 'GH-IJ-20240911',
+    title: '市场推广物料采购',
+    billNum: 'SC-2024-0078',
     status: '已通过',
-    curNode: '技术经理审批',
-    curApprover: '孙伟',
-    applicant: '孙珊珊',
-    date: '2024-08-30'
+    curNode: '市场总监审批',
+    curApprover: '林峰',
+    applicant: '谢娜',
+    date: '2024-03-08'
   },
   {
     id: 9,
-    title: '小蓝提交的零星采购采购评审',
-    billNum: 'KL-MN-20240912',
+    title: '员工培训课程费用申请',
+    billNum: 'PX-2024-0034',
     status: '已通过',
-    curNode: '行政助理审批',
-    curApprover: '陈娜',
-    applicant: '陈涛',
-    date: '2024-08-31'
+    curNode: '人力资源总监审批',
+    curApprover: '朱莉',
+    applicant: '冯雷',
+    date: '2024-03-07'
   },
   {
     id: 10,
-    title: '小紫提交的零星采购采购评审',
-    billNum: 'OP-QR-20240913',
+    title: '产品包装设计外包申请',
+    billNum: 'SJ-2024-0067',
     status: '待审批',
-    curNode: '销售副总审批',
-    curApprover: '马华',
-    applicant: '马涛',
-    date: '2024-09-01'
+    curNode: '产品经理审批',
+    curApprover: '白洁',
+    applicant: '唐明',
+    date: '2024-03-06'
   },
   {
     id: 11,
-    title: '小红提交的零星采购采购评审',
-    billNum: 'ABC-XY-20240904',
+    title: '研发实验室设备采购',
+    billNum: 'YF-2024-0091',
     status: '已通过',
-    curNode: '财务处长审批',
-    curApprover: '张红',
-    applicant: '张延庆',
-    date: '2024-08-23'
+    curNode: '研发总监审批',
+    curApprover: '高峰',
+    applicant: '梁朝',
+    date: '2024-03-05'
   },
   {
     id: 12,
-    title: '小明提交的零星采购采购评审',
-    billNum: 'DEF-GH-20240905',
+    title: '办公楼网络升级申请',
+    billNum: 'WL-2024-0056',
     status: '待审批',
-    curNode: '人事经理审批',
-    curApprover: '李华',
-    applicant: '李雷',
-    date: '2024-08-24'
+    curNode: 'IT主管审批',
+    curApprover: '彭华',
+    applicant: '江涛',
+    date: '2024-03-04'
   },
   {
     id: 13,
-    title: '小刚提交的零星采购采购评审',
-    billNum: 'IJK-LM-20240906',
+    title: '年度员工体检费用申请',
+    billNum: 'TJ-2024-0023',
     status: '待审批',
-    curNode: '技术总监审批',
-    curApprover: '王伟',
-    applicant: '王涛',
-    date: '2024-08-25'
+    curNode: '人事经理审批',
+    curApprover: '董静',
+    applicant: '何勇',
+    date: '2024-03-03'
   },
   {
     id: 14,
-    title: '小蓝提交的零星采购采购评审',
-    billNum: 'NOP-QR-20240907',
+    title: '销售部门差旅费用申请',
+    billNum: 'CL-2024-0145',
     status: '已通过',
-    curNode: '行政部门审批',
-    curApprover: '赵娜',
-    applicant: '赵珊珊',
-    date: '2024-08-26'
+    curNode: '销售总监审批',
+    curApprover: '邓超',
+    applicant: '范冰',
+    date: '2024-03-02'
   },
   {
     id: 15,
-    title: '小绿提交的零星采购采购评审',
-    billNum: 'STU-VW-20240908',
+    title: '新品发布会场地租赁',
+    billNum: 'FB-2024-0034',
     status: '待审批',
-    curNode: '销售经理审批',
-    curApprover: '郑艳',
-    applicant: '郑珊珊',
-    date: '2024-08-27'
+    curNode: '市场经理审批',
+    curApprover: '汪洋',
+    applicant: '金星',
+    date: '2024-03-01'
   },
   {
     id: 16,
-    title: '小粉提交的零星采购采购评审',
-    billNum: 'XYZ-AB-20240909',
+    title: '质检设备年度校准费用',
+    billNum: 'ZJ-2024-0078',
     status: '待审批',
-    curNode: '财务副总审批',
-    curApprover: '吴娜',
-    applicant: '吴珊珊',
-    date: '2024-08-28'
+    curNode: '质量总监审批',
+    curApprover: '程勇',
+    applicant: '叶青',
+    date: '2024-02-29'
   },
   {
     id: 17,
-    title: '小橙提交的零星采购采购评审',
-    billNum: 'CD-EF-20240910',
+    title: '仓库监控系统升级',
+    billNum: 'CK-2024-0045',
     status: '已通过',
-    curNode: '人事主管审批',
-    curApprover: '周华',
-    applicant: '周涛',
-    date: '2024-08-29'
+    curNode: '安防主管审批',
+    curApprover: '田野',
+    applicant: '石磊',
+    date: '2024-02-28'
   },
   {
     id: 18,
-    title: '小青提交的零星采购采购评审',
-    billNum: 'GH-IJ-20240911',
+    title: '员工宿舍维修申请',
+    billNum: 'SS-2024-0012',
     status: '已通过',
-    curNode: '技术经理审批',
-    curApprover: '孙伟',
-    applicant: '孙珊珊',
-    date: '2024-08-30'
+    curNode: '后勤主管审批',
+    curApprover: '关山',
+    applicant: '龙飞',
+    date: '2024-02-27'
   },
   {
     id: 19,
-    title: '小蓝提交的零星采购采购评审',
-    billNum: 'KL-MN-20240912',
-    status: '0',
-    curNode: '行政助理审批',
-    curApprover: '陈娜',
-    applicant: '陈涛',
-    date: '2024-08-31'
+    title: '食堂设备更新申请',
+    billNum: 'ST-2024-0089',
+    status: '待审批',
+    curNode: '行政主管审批',
+    curApprover: '贾明',
+    applicant: '魏青',
+    date: '2024-02-26'
   },
   {
     id: 20,
-    title: '小紫提交的零星采购采购评审',
-    billNum: 'OP-QR-20240913',
+    title: '消防设施年检费用',
+    billNum: 'XF-2024-0067',
     status: '待审批',
-    curNode: '销售副总审批',
-    curApprover: '马华',
-    applicant: '马涛',
-    date: '2024-09-01'
+    curNode: '安全主管审批',
+    curApprover: '方刚',
+    applicant: '任伟',
+    date: '2024-02-25'
   }
 ])
 

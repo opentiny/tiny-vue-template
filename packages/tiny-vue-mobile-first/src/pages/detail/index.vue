@@ -240,7 +240,7 @@ const data = ref([
     date: '2019-06-06 15:57:20',
     person: '郭春节',
     desc: '',
-    signSrc: '../../assets/1.png',
+    signSrc: 'https://res.hc-cdn.com/tiny-vue-web-doc/3.20.7.20250117141151/static/images/ld.png',
     autoColor: h(TinyUserHead, {
       type: 'label',
       round: true,
@@ -254,7 +254,7 @@ const data = ref([
     date: '2022-10-31 15:57:20',
     person: '李晓阳',
     desc: '这是一条审批意见，内部全部展示中',
-    signSrc: '../../assets/1.png',
+    signSrc: 'https://res.hc-cdn.com/tiny-vue-web-doc/3.20.7.20250117141151/static/images/ld.png',
     autoColor: h(TinyUserHead, {
       type: 'label',
       round: true,
