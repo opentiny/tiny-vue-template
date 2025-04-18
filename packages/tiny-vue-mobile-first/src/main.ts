@@ -9,6 +9,8 @@ import './tailwind.css'
 // 适配层集成twMerge能力
 customDesignConfig.twMerge = twMerge
 
+window.maxWidth = undefined
+
 const i18n = createI18n({
   legacy: false,
   locale: 'en',
