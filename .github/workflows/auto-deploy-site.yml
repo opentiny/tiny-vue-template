@@ -63,6 +63,11 @@ jobs:
       - name: Build site
         run: pnpm run build # 执行构建命令，生成静态网站文件
 
+      - name: Repair build artifact
+        run: |
+          sudo chown -R 777 packages/tiny-vue-mobile-first/dist
+          cp packages/tiny-vue-mobile-first/dist/index.html packages/tiny-vue-mobile-first/dist/404.html
+
       # 步骤8: 上传构建产物
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
