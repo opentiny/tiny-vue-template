@@ -6,12 +6,14 @@
   "author": "",
   "license": "MIT",
   "packageManager": "pnpm@9.14.2",
+  "scripts": {
+    "dev": "pnpm -F tiny-vue-mobile-first dev",
+    "build": "pnpm -F tiny-vue-mobile-first build",
+    "preview": "pnpm -F tiny-vue-mobile-first preview"
+  },
   "keywords": [
     "opentiny",
     "nuxt",
     "tiny-vue"
-  ],
-  "scripts": {
-    "dev": "pnpm -F tiny-vue-mobile-first dev"
-  }
+  ]
 }
